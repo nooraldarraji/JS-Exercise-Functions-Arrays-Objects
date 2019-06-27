@@ -33,11 +33,6 @@ function addNumbers(num1, num2) {
  * For example, if we invoke `makePersonObject`
  * passing 5, 'Leia' and 'leia@leia.com' as arguments,
  * the returned value should look like:
- * {
- *   id: 5,
- *   name: "Leia",
- *   email: "leia@leia.com",
- * }
 */
 function makePersonObject(id, name, email) {
   return { "id": id, "name": name, "email": email }
